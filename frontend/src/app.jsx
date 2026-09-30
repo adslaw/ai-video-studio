@@ -1,7 +1,7 @@
 const { useState, useEffect } = React;
 const API = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
   ? 'http://127.0.0.1:8000'
-  : 'https://your-backend-url.example.com';
+  : 'https://ai-video-studio-production-c20a.up.railway.app';
 
 function App() {
   const [view, setView] = useState('dashboard');
@@ -150,3 +150,4 @@ function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+
