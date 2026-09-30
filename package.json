@@ -1,0 +1,16 @@
+{
+  "name": "bot-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:backend": "cd backend && python -m uvicorn main:app --reload",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && python -m uvicorn main:app"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {},
+  "devDependencies": {}
+}

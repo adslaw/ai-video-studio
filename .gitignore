@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+projects.db
+projects.db.json
+projects/
+.env
+node_modules/
+*.mp4
+*.wav
+.venv/
+*.whl
